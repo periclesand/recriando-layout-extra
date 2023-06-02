@@ -17,7 +17,7 @@ body {
 h1 {
   font-family: 'Dosis', sans-serif;
   font-size: 32px;
-  line-height: 40,45;
+  line-height: 40.45px;
   font-weight: normal;
   color: #3F3D56;
   margin-bottom: 16px;
@@ -33,7 +33,7 @@ span, a {
   font-weight: bold;
 }
 
-p, #footer {
+p {
   font-size: 15px;
   line-height: 22px;
 }
@@ -45,11 +45,17 @@ p, #footer {
   border: 1px solid #ECEFF2;
 }
 
+#footer {
+  font-size: 15px;
+  line-height: 22.15px;
+}
 #footer a + a {
   margin-left: 42px;
-  line-height: 22px;
 }
 
 #wave {
   margin: 40.83px auto 0;
+  bottom: 0;
+  position: relative;
+  width: 100%;
 }
